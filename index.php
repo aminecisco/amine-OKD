@@ -196,7 +196,7 @@ if ($rc === true) {
 else {
 	echoln("Erreur d'initialisation");
 }
-/
+
 # pour calculer tous le chemin le plus court pour toute les paires de noeuds du graphe
 # prévoir d'allonger la durée maximale d'exécution du script php à 5 minutes en modifiant le fichier php.ini : 
 # max_execution_time = 300
