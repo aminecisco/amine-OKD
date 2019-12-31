@@ -1,12 +1,9 @@
-Deux fichiers : dijkstra.php qui implémente l'algo et test_dijkstra2.php qui le teste...
 
-dijkstra.php : 
+
 <?php
 
-/*
-Description de l'algorithme de Dijkstra
-On suppose ici que le sommet de départ (qui sera la racine de l'arborescence) est le sommet 1. 
-Notons qu'on peut toujours renuméroter les sommets pour que ce soit le cas.
+
+
 
 Initialisations 
 	c(i,j) = 0 si i=j
@@ -572,7 +569,7 @@ $dij = new Dijkstra($graphe);
 // echoln("Liste des arcs du graphe :");
 // $graphe->print_arcs();
 
-/*
+
 echoln("exemple 1 : distance minimale entre deux villes pour lesquelles il y a au moins un chemin");
 $rc = $dij->setDepart($n[34]);
 $rc = $dij->setArrivee($n[56]);
