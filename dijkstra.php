@@ -1,17 +1,6 @@
 <?php
  
-	c(i,j) = 0 si i=j
-	c(i,j) = infini si i != j et (i,j) n'est pas un arc
-	c(i,j) = d(i,j) si i != j et (i,j) est un arc
-	l(j) = c(1,j) et p(j) = NIL, pour 1 <= j <= n
-	Pour 2 <= j <= n faire
-	   Si c(1,j) < infini alors p(j) = 1.
-	S = {1} ; T = {2, 3, ..., n}.
-	Pour chaque successeur j de i, avec j dans T, faire
-		  Si l(j) > l(i) + d(i,j) alors
-				l(j) = l(i) + d(i,j)
-				p(j) = i
-/
+
 function echoln($chaine) {
     echo $chaine . "\n</br>";
 }
