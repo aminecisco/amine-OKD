@@ -1,8 +1,5 @@
 
 
-//Deux fichiers : dijkstra.php qui implémente l'algo et test_dijkstra2.php qui le teste...
-
-//dijkstra.php : 
 <?php
  
 	c(i,j) = 0 si i=j
